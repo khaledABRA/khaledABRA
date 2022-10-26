@@ -28,6 +28,7 @@ public class Facture implements Serializable {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long idFacture;
+	// first commentaire
 	private float montantRemise;
 	private float montantFacture;
 	@Temporal(TemporalType.DATE)
