@@ -31,6 +31,7 @@ public class Facture implements Serializable {
 	// first commentaire
 	private float montantRemise;
 	private float montantFacture;
+	//second commentaire
 	@Temporal(TemporalType.DATE)
 	private Date dateCreationFacture;
 	@Temporal(TemporalType.DATE)
